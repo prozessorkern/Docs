@@ -1,0 +1,90 @@
+% Heya mate, this is not finished yet. Just so you know... Oh, I almost forgot, this document is provided AS IS without any warranty of any sort. The content might be total bullshit and should be used with caution. So if it burns down your house, kills your cat or opens a portal to another dimension, you are at fault. Don't come complaining I didn't warn ya. With that out of the way, enjoy the document!
+
+\documentclass[12pt,a4paper,ngerman]{scrartcl}
+\usepackage[utf8]{inputenc} % üäö directly in source
+\usepackage[ngerman]{babel}
+\usepackage{float}
+\usepackage{pdfpages}
+\usepackage{titlesec}
+\usepackage[colorlinks, linkcolor = black, citecolor = black, filecolor = black, urlcolor = blue]{hyperref} 
+
+%Polynomdivision
+\usepackage{polynom}
+
+
+%4 Ebenen
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+
+%Kopf und Fußzeile:
+\usepackage{fancyhdr}
+\pagestyle{plain}
+
+\fancypagestyle{plain}{
+	\fancyhf{}
+	%Kopfzeile links
+	\fancyhead[L]{\includegraphics[height = 35px]{img/Schimatta_LOGO.pdf}}
+	%Kopfzeile rechts
+	\fancyhead[R]{}
+	%Fußzeile anzeigen
+	%Fußzeile Rechts
+	\fancyfoot[R]{\small{Stefan Strobel}}
+	%Fußzeile Links
+	\fancyfoot[C]{Seite \thepage}
+	\fancyfoot[L]{Elektronik Fehlersuche}
+}
+% Heading for Titlepage
+\fancypagestyle{myheadings}{
+	\fancyhf{}
+	%Kopfzeile links
+	\fancyhead[L]{\includegraphics[height = 35px]{img/Schimatta_LOGO.pdf}}
+	%Kopfzeile rechts
+	\fancyhead[R]{}
+	%Fußzeile anzeigen
+	%Fußzeile Rechts
+	%\fancyfoot[R]{\small{Die Drei von der Tanke}}
+	%Fußzeile Links
+	%\fancyfoot[L]{MCT Tutorium}
+}
+%Linie oben
+%\renewcommand{\headrulewidth}{0.5pt}
+
+\setlength{\headheight}{40pt}
+
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+
+%opening
+\date{\today}
+\title{Fehlersuche in Elektronischen Schaltungen}
+\subtitle{Grundlagen zum Finden und beheben von Problemen in moderner Elektronik}
+\author{Stefan Strobel}
+
+
+\begin{document}
+	
+	\maketitle
+	
+	\pagebreak
+	
+	\pagestyle{plain}
+	
+	\tableofcontents
+	
+	\pagebreak
+	
+	\input Einleitung
+	
+	\input{Arbeitsumfeld}
+	
+	\input{Fehlersuche}
+	
+	
+\end{document}

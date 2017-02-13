@@ -1,0 +1,56 @@
+\section{Das richtige Arbeitsumfeld}
+
+Im Folgenden Kapitel werden Werkzeuge und Methoden aufgelistet, die zum professionellen Umgang mit elektrischen Schaltungen vorhanden bzw. angewendet werden sollten.
+Über die nötige Qualität lässt sich streiten, allerdings sollte man nicht am falschen Ende sparen. Hochwertigere Geräte lassen sich für gewöhnlich auch mit weniger Erfahrung sicher bedienen.
+
+Es gibt viele Werkzeuge und Messgeräte, die ab einem gewissen Aufwand der Reparatur benötigt werden. Allerdings sind diese häufig recht hochpreisig und zur Beherrschung ist eine umfassende Ausbildung nötig. Daher werden diese hier vorerst nicht näher beschrieben.
+
+\subsection{Grundausstattung}
+
+\begin{itemize}
+	\item Multimeter (Unverzichtbares Hilfsmittel zum Messen verschiedenster elektrischer Größen)
+	\item Lötkolben/Lötstation
+	\item Heißluftlötstation (zum Tauschen von SMD Bausteinen unerlässlich)
+	\item Pinzetten (feine, präzise gefertigte zur sicheren Platzierung von Bauteilen)
+	\item Auflicht Mikroskop (günstige USB Varianten erhältlich)
+	\item Lötzubehör
+	\begin{itemize}
+		\item Lötzinn (mehrere Stärken (0,5mm und 1mm mindestens))
+		\item Flussmittel
+		\item Lötbesteck
+		\item Entlötlitze in verschiedenen Stärken
+	\end{itemize}
+	\item ESD Schutzausrüstung
+\end{itemize}
+
+\subsection{Arbeitsschutz}
+
+Um sicher an elektronischen Schaltungen arbeiten zu können, sich zum einen nicht selbst zu gefährden, zum anderen nicht unbeabsichtigt weitere Fehler zu verursachen, sollten einige Grundregeln beachtet werden:
+
+\subsubsection{Arbeiten Sie nicht unter Spannung}
+
+Wenn es sich vermeiden lässt sollte man sämtliche Arbeiten (Diagnosen, Lötarbeiten) mit getrennter Spannungsversorgung durchführen.
+Dies gilt vor allem bei Geräten, die direkt mit Netzspannung betrieben werden.
+Ein Fehler hier kann ggf. tödlich enden.
+
+Viele Elektronische Geräte arbeiten glücklicherweise mit einer sehr kleinen Spannung von idR. max 12V. Bei solch geringen Spannungen ist zwar die Verletzungsgefahr sehr gering, jedoch kann bei Arbeiten unter Spannung das Gerät, das man eigentlich reparieren will noch stärker beschädigt werden.
+
+Verursacht man beispielsweise bei Messungen versehentlich einen Kurzschluss, kann dies bisher intakte Teile der Schaltung beschädigen.
+
+Daher sollte soweit möglich nur Spannungsfrei gearbeitet werden.
+Ist dies bei einigen Messungen nicht möglich, sollte jedoch besondere sorgfältig gearbeitet werden. Alle nicht benötigten Teile der Schaltung können beispielsweise abgedeckt werden um das Risiko von versehentlichen Berührungen zu minimieren.
+
+Auch sollten Unterlagen beim arbeiten gewählt werden, die nichtleitend sind.
+Ansonsten kann es auch hier zu ungewollten Kurzschlüssen kommen.
+
+\subsubsection{ESD Schutz}
+
+ESD (electrostatic discharge, oder elektrostatische Entladung) beschreibt ein häufiges Problem bei der Reparatur und Fertigung von Elektronik. Durch die immer kleiner werdenden Strukturen auf Computerchips (Speichern, Prozessoren, etc.) werden diese immer empfindlicher für kleine elektrische Entladungen. Diese treten immer dann auf, wenn sich zwei Körper unterschiedlich elektrisch aufladen. Läuft man beispielsweise mit Gummisohlen auf Teppichboden, kann es vorkommen, dass man sich beim Gehen elektrostatisch auflädt. Berührt man nun etwas leitendes, findet ein Ladungsausgleich in Form eines kleinen Lichtbogens statt (Blitz).
+Trifft ein solcher Lichtbogen bei der Arbeit auf ein empfindliches elektronisches Bauteil, treten dort kurzzeitig relativ hohe Ströme auf, die das Bauteil beschädigen können.
+Dies kann von kleinen Fehlfunktionen bis zu einem Totalausfall vieles zur Folge haben.
+Um das zu vermeiden sollte man daher auf einen ESD gerechten Arbeitsplatz achten.
+
+Am einfachsten kann man dies durch eine spezielle ESD Matte erreichen, die man als Arbeitsunterlage verwendet. Diese saugt praktisch alle ungewollten elektrischen Ladungen ab.
+In Verbindung dazu hilft ein ESD Schutz Armband.
+Dieses kann man idR. an der Matte anschließen und erdet sich dadurch selbst.
+Auf diesem Weg werden auch ungewollte Ladungen vom eigenen Körper abgeleitet und so eine elektrische Entladung verhindert.
