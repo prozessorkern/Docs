@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.11.15)  13 FEB 2017 22:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.11.15)  15 FEB 2017 23:11
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -708,7 +708,7 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              I'd suggest to use 
 (scrartcl)              package `scrlayer-scrpage'.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 26.
+(scrartcl)              package `fancyhdr' on input line 25.
 
 (c:/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
@@ -727,20 +727,20 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 (./Fehlersuche Elektronik Basics 1.aux)
 \openout1 = `"Fehlersuche Elektronik Basics 1.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
 \AtBeginShipoutBox=\box33
 
 (c:/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -781,7 +781,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring ON on input line 71.
+Package hyperref Info: Link coloring ON on input line 70.
 
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -791,32 +791,32 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count112
 )
-LaTeX Info: Redefining \ref on input line 71.
-LaTeX Info: Redefining \pageref on input line 71.
-LaTeX Info: Redefining \nameref on input line 71.
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
 
 (./Fehlersuche Elektronik Basics 1.out) (./Fehlersuche Elektronik Basics 1.out)
 \@outlinefile=\write3
 \openout3 = `"Fehlersuche Elektronik Basics 1.out"'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 74.
+(Font)              <17.28> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 74.
-<img/Schimatta_LOGO.pdf, id=60, 148.94748pt x 34.83795pt>
+(Font)              <12> on input line 73.
+<img/Schimatta_LOGO.pdf, id=104, 148.94748pt x 34.83795pt>
 File: img/Schimatta_LOGO.pdf Graphic file (type pdf)
 
 <use img/Schimatta_LOGO.pdf>
-Package pdftex.def Info: img/Schimatta_LOGO.pdf used on input line 76.
+Package pdftex.def Info: img/Schimatta_LOGO.pdf used on input line 75.
 (pdftex.def)             Requested size: 150.20847pt x 35.13138pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 75.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 75.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 75.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 75.
  [1
 
 
@@ -833,16 +833,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 File: img/Schimatta_LOGO.pdf Graphic file (type pdf)
  <use img/Schimatta_LOGO.pdf>
-Package pdftex.def Info: img/Schimatta_LOGO.pdf used on input line 82.
+Package pdftex.def Info: img/Schimatta_LOGO.pdf used on input line 81.
 (pdftex.def)             Requested size: 150.20847pt x 35.13138pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 82.
+(babel)             in language  on input line 81.
  [2]
 (./Einleitung.tex
 Package babel Info: Redefining ngerman shorthand "|
@@ -920,80 +920,252 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Overfull \hbox (3.22414pt too wide) in paragraph at lines 16--16
+[][]\OT1/cmr/m/n/12 Ubertemperatur| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]\OT1/cmr/m/n/12 Mechanische
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 22.
+File: img/Schimatta_LOGO.pdf Graphic file (type pdf)
+<use img/Schimatta_LOGO.pdf>
+Package pdftex.def Info: img/Schimatta_LOGO.pdf used on input line 26.
+(pdftex.def)             Requested size: 150.20847pt x 35.13138pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 26.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 26.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 26.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 26.
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]\OT1/cmr/m/n/12 Mechanische
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 52.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 52.
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
+ []
+
+File: img/Schimatta_LOGO.pdf Graphic file (type pdf)
+<use img/Schimatta_LOGO.pdf>
+Package pdftex.def Info: img/Schimatta_LOGO.pdf used on input line 62.
+(pdftex.def)             Requested size: 150.20847pt x 35.13138pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 62.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 62.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 62.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 62.
+ [6]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 74.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 74.
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 81.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 81.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 93.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 93.
+
+Overfull \hbox (16.12257pt too wide) in paragraph at lines 95--97
+\OT1/cmr/m/n/12 Viele hoch-wer-ti-ge-re Ger[]ate ha-ben zum Schutz vor []Ubersp
+annung oder []Ahnlichem Schutzein-
+ []
+
+
+Overfull \hbox (4.76157pt too wide) in paragraph at lines 95--97
+\OT1/cmr/m/n/12 durch-bren-nen und so-mit den Strom-fluss un-ter-bre-chen, zum 
+an-de-ren wer-den h[]aufig Schutz-
+ []
+
+File: img/Schimatta_LOGO.pdf Graphic file (type pdf)
+<use img/Schimatta_LOGO.pdf>
+Package pdftex.def Info: img/Schimatta_LOGO.pdf used on input line 98.
+(pdftex.def)             Requested size: 150.20847pt x 35.13138pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 98.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 98.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 98.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 98.
+ [7]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 107.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 107.
+File: img/Schimatta_LOGO.pdf Graphic file (type pdf)
+ <use img/Schimatta_LOGO.pdf>
+Package pdftex.def Info: img/Schimatta_LOGO.pdf used on input line 137.
+(pdftex.def)             Requested size: 150.20847pt x 35.13138pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 137.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 137.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 137.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 137.
+ [8]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 137.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 137.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 155.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 155.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 168.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 168.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 172.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 172.
 File: img/Schimatta_LOGO.pdf Graphic file (type pdf)
 
 <use img/Schimatta_LOGO.pdf>
-Package pdftex.def Info: img/Schimatta_LOGO.pdf used on input line 24.
+Package pdftex.def Info: img/Schimatta_LOGO.pdf used on input line 176.
 (pdftex.def)             Requested size: 150.20847pt x 35.13138pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 176.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 176.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 176.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
- [5]
+(babel)             in language  on input line 176.
+ [9]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 48.
+(babel)             in language  on input line 193.
+) (./Reparatur.tex
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 5.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 9.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 9.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
+File: img/Schimatta_LOGO.pdf Graphic file (type pdf)
+
+<use img/Schimatta_LOGO.pdf>
+Package pdftex.def Info: img/Schimatta_LOGO.pdf used on input line 91.
+(pdftex.def)             Requested size: 150.20847pt x 35.13138pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 91.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 91.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 91.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 91.
+ [10]
 File: img/Schimatta_LOGO.pdf Graphic file (type pdf)
  <use img/Schimatta_LOGO.pdf>
-Package pdftex.def Info: img/Schimatta_LOGO.pdf used on input line 90.
+Package pdftex.def Info: img/Schimatta_LOGO.pdf used on input line 91.
 (pdftex.def)             Requested size: 150.20847pt x 35.13138pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 91.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 91.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 91.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 90.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
+(babel)             in language  on input line 91.
+ [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
 
 (./Fehlersuche Elektronik Basics 1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 90.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
 Package rerunfilecheck Info: File `"Fehlersuche Elektronik Basics 1".out' has n
 ot changed.
-(rerunfilecheck)             Checksum: 4F8812FB82E87712F9EE89B4EEC7E80B;902.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 90.
+(rerunfilecheck)             Checksum: C84DD332810FB66800A0235D4ECE4098;1679.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 9862 strings out of 493013
- 153107 string characters out of 6136992
+ 9895 strings out of 493013
+ 153595 string characters out of 6136992
  342626 words of memory out of 5000000
- 13253 multiletter control sequences out of 15000+600000
+ 13267 multiletter control sequences out of 15000+600000
  9380 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,15n,51p,8901b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,16n,51p,8901b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2016/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2016/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb>
-Output written on "Fehlersuche Elektronik Basics 1.pdf" (6 pages, 89177 bytes).
-
+Output written on "Fehlersuche Elektronik Basics 1.pdf" (11 pages, 105085 bytes
+).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 118 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 222 PDF objects out of 1000 (max. 8388607)
+ 200 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

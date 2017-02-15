@@ -6,16 +6,18 @@ In der Elektronik ist häufig nicht leicht feststellbar, wo in einer komplexen S
 In vielen Fällen ist es daher hilfreich herauszufinden, was den Fehler ausgelöst haben könnte.
 Soll heißen, durch welche äußeren Umstände könnte der Fehler erzeugt worden sein.
 
-Im folgenden ein paar klassische Fehlerursachen und Probleme, die dadurch auftreten können:
+Im folgenden ein paar klassische Fehlerursachen und Probleme, die dadurch auftreten können:\\
 
-\begin{itemize}
-	\item Wasserschaden ==> Korrosion, Kurzschluss(Zerstörung von Bauteilen)
-	\item Übertemperatur ==> Zerstörung von Bauteilen mit hoher Verlustleistung, Kontaktprobleme durch Verzug
-	\item Mechanische Einwirkung ==> Bruch von Leiterbahnen, Brüche in Bauteilen, Kontaktprobleme
-	\item Überspannung (Blitzeinschlag, Netzteildefekt) ==> Zerstörung von Schutzeinrichtungen, oder anderen Bauteilen
-\end{itemize}
+\begin{tabular}{p{80pt}p{300pt}}
 
+	Ursache & Symptome \\ 
+	\hline 
+	Wasserschaden & Korrosion, Kurzschluss(Zerstörung von Bauteilen) \\ \\
+	Übertemperatur	& Zerstörung von Bauteilen mit hoher Verlustleistung, Kontaktprobleme durch Verzug \\ \\
+	Mechanische Einwirkung & Bruch von Leiterbahnen, Brüche in Bauteilen, Kontaktprobleme\\ \\
+	Überspannung & Zerstörung von Schutzeinrichtungen, oder anderen Bauteilen\\
 
+\end{tabular} 
 
 \subsection{optische Fehlersuche}
 
@@ -24,35 +26,185 @@ Auch wenn viele elektronische Fehler optisch nicht zu erkennen sind, führen ein
 
 Da elektrische Bauteile immer kleiner werden empfiehlt sich hier die Verwendung eines, wenn auch einfachen Mikroskops. Günstige Geräte mit USB Anschluss sind für schmales Geld erhältlich und erfüllen hier sehr gut Ihren Zweck.
 
-Das genaue Augenmerk der optischen Fehlersuche hängt an dieser Stelle bereits von der vermuteten Ursache des Fehlers ab.
+Das genaue Augenmerk der optischen Fehlersuche hängt an dieser Stelle bereits von der vermuteten Ursache des Fehlers ab.\\
 
-Auffälligkeiten:
-\begin{itemize}
-	\item Korrosion (sämtliche Bauteilanschlüsse absuchen, sofern zugänglich)
-	\item Rückstände von Flüssigkeiten
-	\item Brüche, Rissen der Leiterplatte, oder in Bauteilen
-	\item Verfärbung von Teilen der Leiterplatte, oder von bestimmten Bauteilen
-	\item sichtbare Beschädigungen an Bauteilen (häufig sichtbar durch kleine Löcher im Chipgehäuse) grundsätzlich sollte man sich jedes Bauteil, das in irgend einer Form merkwürdig aussieht näher untersuchen.
-\end{itemize}
+Auffälligkeiten:\\
+
+\begin{tabular}{p{80pt}p{300pt}}
+	
+	Symptom & Anzeichen \\ 
+	\hline 
+	Wasserschaden & sämtliche Bauteilanschlüsse nach Korrosion absuchen, sofern zugänglich \\ \\
+	Wasserschaden & Rückstände von Flüssigkeiten \\ \\
+	Mechanische Einwirkung & Nach abgerissenen Pins und Rissen suchen \\ \\
+	Überspannung & Verfärbung/Verformung von Bauteilen, kleine Löcher in Bauteilen, Verfärbung um Bauteile herum\\
+	
+\end{tabular} \\
+
+
+Grundsätzlich sollte man sich jedes Bauteil und alles andere, das in irgend einer Form merkwürdig aussieht näher untersuchen.\\
+
+TIPP:
+
+Nicht nur optisch lassen sich einige Fehler leicht enger eingrenzen, auch die Nase kann dabei helfen.
+Bei einem elektrischen Defekt entstehen idR. hohe Temperaturen, die letztendlich Bauteile zerstören. Dabei treten Verbrennungsrückstände aus den Bauteilen aus. Dabei entwickelt sich ein charakteristischer Geruch. Es lohnt sich daher vor der weiteren Suche kurz am Gerät zu riechen, ob Teile davon verdächtig riechen :). So kann man die Fehlersuche evtl. besser eingrenzen.
+
+\subsection{Inbetriebnahme}
+
+Hat die optische Analyse keinen eindeutigen Fehler hervorgebracht muss man das Gerät nun unter Strom setzen um weitere Fehler zu finden.
+Bitte bedenken Sie, dass ggf. durch Anlegen der Versorgungsspannung der Fehler verschlimmert werden kann.
+
+Falls vorhanden kann man mit einem Labornetzteil arbeiten, das eine Strombegrenzung hat.
+So kann man eine zu hohe Stromaufnahme verhindern, bei der weitere Bauteile beschädigt werden können...
+
+Egal, wie man das Gerät versorgt, ist darauf zu achten, dass es sich auf einer nicht leitenden Oberfläche befindet, um keine Kurzschlüsse zu verursachen.
+Auch darf das Gerät logischerweise maximal nur mit der zulässigen Spannung betrieben werden.\\
+
+Sobald man die Versorgung eingeschaltet hat sollte man genau auf jede Auffälligkeit achten.
+Defekte Bauteile neigen je nach Defekt häufig dazu, mehr Strom aufzunehmen und sich so sehr stark zu erhitzen. Suchen Sie daher nach (zu) starken Wärmequellen.
+Eine Wärmebildkamera ist dazu praktisch, aber nicht unbedingt notwendig.
+Es kann auch vorsichtig mit der Hand erfühlt werden.
+
+Es empfiehlt sich in manchen Fällen das Gerät zunächst nur recht kurz (10s) anzuschließen und anschließend nach verdächtigen Wärmenestern zu suchen.
+
+Wird ein Bauteil übermäßig warm, haben wir idR. den ersten Defekt gefunden und das Bauteil sollte ausgetauscht werden.
+
+Läuft das Gerät unauffällig (es zerstört sich selbst nicht von alleine weiter ;) ) kann man mit der Fehlersuche fortfahren.
 
 \subsection{messtechnische Fehlersuche}
 
-Spannungen verfolgen
+Grundsätzlich sei hier gesagt, man kann praktisch alle Fehler messtechnisch feststellen.
+Allerdings ist dies bei komplexen Schaltungen, wie sie in einem Computer vorkommen, nur mit extremen technischen Mitteln und Know How machbar. Wenn man das Wissen hätte, könnte man das Gerät praktisch selbst entwickeln...\\
 
-Kurzschlüsse messen
+Hier werden daher nur grundlegende Messtechniken aufgeführt, die in sehr vielen Fällen zur Auffindung des Problems beitragen, aber trotzdem mit einfachen Mitteln und ohne detaillierte Informationen zur vorliegenden Schaltung durchführbar sind.
 
-Dioden messen
+\subsubsection{Durchgang Prüfen}
 
-Kapazitäten nachmessen (funktioniert selten gut in eingebautem Zustand)
+Dies ist vor allem von Interesse, wenn eine mechanische Ursache vermutet wird.
+Hierbei wird mit einem Multimeter lediglich die elektrische Verbindung zwischen zwei Punkten der Schaltung gemessen, die vorhanden sein sollte (optisch nachvollzogen).
+
+Ein Beispiel dafür ist die elektrische Verbindung eines neu angelöteten Steckverbinders zur Schaltung (z.B. ein Chip, der die USB Signale verarbeitet).
+
+Auch auf eingelötete Kurzschlüsse sollte man dabei prüfen.
+
+Das Gerät benötigt dabei keine Versorgungsspannung.
+Daher sollte man diese auch trennen.
+
+\subsubsection{Schutzeinrichtungen messen}
+
+Viele hochwertigere Geräte haben zum Schutz vor Überspannung oder Ähnlichem Schutzeinrichtungen verbaut.
+Zum einen können dies einfache Sicherungen sein, die bei Überlast durchbrennen und somit den Stromfluss unterbrechen, zum anderen werden häufig Schutzdioden eingesetzt, die bei einer zu hohen Spannung leitend werden und so die zu hohe Spannung kurzschließen.
+
+Viele dieser Schutzeinrichtungen werden bei Auslösung zerstört.
+
+Einfach zu findende Schutzeinrichtungen sind häufig direkt bei der Spannungsversorgung (Anschlussstecker) verbaut. Sicherungen sind idR. weiß, Dioden etwas klobigere schwarze zweipolige Bauteile.
+
+Sicherungen sind in Reihe mit der Versorgung verbaut. Diese sollte man auf einfachen Durchgang prüfen (mit dem Multimeter). Ist kein Durchgang vorhanden, ist die Sicherung defekt.
+
+Schutzdioden funktionieren anders. Sie sind in aller Regel Parallel zur Eingangsspannung. Wenn eine solche Diode im Fehlerfall viel Leistung aufnimmt, kann sie zerstört werden und wird dadurch vollständig leitend. Daher auch hier Durchgang, bzw. Diodenspannung von Versorgungsspannung zu Masse messen.
+Liegt hier ein Kurzschluss vor, muss das Bauteil getauscht werden. Dies sollte allerdings auch durch starke Erwärmung der Diode auffallen...
+
+\subsubsection{Spannungen an Bauteilen messen}
+
+Ein häufiger Defekt sind Probleme mit den Spannungsversorgungen einer Schaltung.
+Das Gerät muss hierbei mit Spannung versorgt werden, daher vorsichtig arbeiten!
+Daher bietet es sich an, an mehreren Bauteilen deren Versorgungsspannung nachzumessen.
+Ideal ist hier ein Schaltplan. Dort könnte man nachsehen, an welchen Punkten welche Spannung anliegen sollte und wo diese erzeugt wird.
+
+Wenn man keinen Schaltplan zur Verfügung hat, helfen die Datenblätter der verbauten Bauteile häufig weiter.
+Einfach die Bezeichnungen in einer Suchmaschine der Wahl eingeben.
+Viele Bauteildatenblätter sind öffentlich zugänglich.
+
+In den Datenblättern sollte man die Belegungsliste heraussuchen.
+Dort kann entnommen werden, welcher Pin des Bauteils welche Funktion hat.
+In diesem Fall interessieren uns die Spannungsversorgungspins.
+Deren Name fängt häufig mit dem Buchstaben V an (vdd, vcc...). Gemessen wird eine Spannung immer gegen ein anderes Potential. In der Regel verwendet man dafür den sog. Ground GND.
+Dieser ist als 0V definiert. Mit GND ist idR. immer eine Seite der Bauteilversorgung verbunden.
+GND lässt sich bei den meisten Schaltungen sehr leicht finden. Denn GND ist häufig flächig auf der ganzen Leiterplatte geführt und auch ans Gehäuse angeschlossen.
+Daher messen Sie, wenn vorhanden alle Spannungen gegen eine größere Fläche auf der Leiterplatte.
+Hierbei sollte beachtet werden, dass man auf dem Schutzlack der Platine nicht messen kann.
+Man muss daher blanke Stellen finden. Entweder an Bauteilen, oder an Verschraubungen...
+
+Die aus dem Datenblatt herausgesuchten, zu messenden Pins müssen auch gefunden werden.
+Alle Bauteile haben eine Markierung, wo PIN1 beginnt.
+von dort geht man normalerweise gegen den Uhrzeigersinn um das Bauteil herum.
+Durch Zählen findet man die Pin Nummer aus dem Datenblatt.
+
+Beim Messen selbst sollte man darauf achten, keine Kurzschlüsse mit der Messspitze zu verursachen. Dies kann auch weitere Schäden hervorrufen.
+
+Weicht die Spannung an einem Punkt erheblich von der Vorgabe des Bauteils ab, haben wir einen Fehler, oder zumindest dessen Symptom gefunden.
+
+\subsubsection{Spannungen verfolgen}
+
+Hat man eine defekte Versorgungsspannung gefunden, sollte man diese in der Schaltung verfolgen.
+Gibt es andere Bauteile, die damit noch verbunden sind, haben auch diese keine Spannung ?
+Wo kommt die Spannung her?
+
+Hier muss man nun die Spannungsregelung überprüfen.
+Diese wird in aller Regel auch durch ein Integriertes Bauteil geregelt, wozu man ein Datenblatt findet.
+Neben der Ausgangsspannung (die fehlerhaft zu sein scheint) sollte man auch die Versorgungsspannung des Spannungsreglers selbst prüfen, um einen Fehler, der davor liegt auszuschließen.
+
+Hat der Spannungsregler selbst Versogungsspannung, liefert jedoch keinen Ausgang, liegt das Problem vermutlich hier. Ein Austausch des Bauteils könnte Abhilfe schaffen.
+
+Bevor man ein intaktes Bauteil tauscht, sollte man im Datenblatt zusätzlich prüfen, ob ein zusätzlicher Steuereingang vorhanden ist, der das Bauteil evtl. gerade abgeschaltet hat.
+Dies wird in vielen Geräten zum Stromsparen eingesetzt...
+Ist ein solcher Pin vorhanden sollte man dessen Spannungspegel prüfen und die Bedeutung für die Schaltung anhand des Datenblattes nachschlagen.
+
+Tauscht man das Bauteil, sollte man in jedem Fall mit ausgebautem Bauteil eine Kurzschlussmessung durchführen.
+
+\subsubsection{Kurzschlüsse messen}
+
+Nicht alle Ausfälle der Versorgungsspannung liegen tatsächlich am Spannungsregler.
+Viele werden auch durch Kurzschlüsse am Ausgang des Reglers hervorgerufen, die diesen überlasten.
+
+Daher sollte man mit einem Multimeter auch den Widerstand, bzw. die Sperrspannung des Versorgungsnetzes gegenüber Masse testen. Dies ist bei ausgebautem Spannungsregler aussagekräftiger.
+
+Hier sollte man darauf achten, dass die Stromrichtung stimmt (Pluspol der Messung an Pluspol des Netzes), da einige Schutzeinrichtungen der Bauteile ansonsten die Messung verfälschen.
+
+Auch sollte man über längere Zeit messen, da sich Kapazitäten im Netz befinden können, die sich erst mit der Zeit aufladen und davor wie ein Kurzschluss wirken.
+
+Hat man einen Kurzschluss gefunden, bleibt einem zur Eingrenzung häufig nur das Schrittweise Ausbauen aller mit dem Netz verbundenen Bauteile und Nachmessen, ob der Kurzschluss damit verschwunden ist.
 
 \subsection{häufige Fehlerquellen}
 
-Elkos
+In diesem Kapitel werde noch einige klassische Fehlerquellen genannt, die man in jedem Fall prüfen sollte.
 
-Schutzeinrichtungen(Sicherungen, Schutzdioden)
+\subsubsection{Elektrolytkondensatoren}
 
-Mechanische/Kontaktprobleme (abgerissene Steckverbinder, Korrosion)
+Fehlerursache Nummer eins bei allem was ein Netzteil hat, sind sog. Elektrolytkondensatoren.
+Das sind Zylinderförmige Bauteile, die Energie kurzzeitig speichern können und somit Versorgungsspannungen glätten...
+
+Sind sie defekt, kommen viele Bauteile durch erhöhte Schwingungen aus dem Tritt...
+
+Elkos sind in vielen Schaltungen die einzigen Bauteile, die natürlich altern.
+Sie altern schneller, je höher die Temperatur ist.
+Daher sollten sie vor allem wenn sie in der Nähe von Wärmequellen (Kühlkörper anderer Bauteile) montiert wurden näher untersucht werden.
+
+Da Elkos in Becherform mit Überdruckschutz aufgebaut werden, sieht man einen Defekt häufig daran, dass sich die Kappe bläht. Dann sollte das Teil ausgetauscht werden.
+Ab einem gewissen Alter empfiehlt es sich sowieso dies zu tun ;)
+
+Wirklich Prüfen, ob ein Elko defekt ist lässt sich in eingebautem Zustand selten.
+Daher müsste er ausgebaut und anschließend mit einem Multimeter auf Kapazität getestet werden.
+
+\subsubsection{Schutzdioden}
+
+Wie bereits oben erwähnt sollten sämtliche Schutzeinrichtungen wie z.B. Schutzdioden geprüft werden.
 
 \subsection{Achtung Folgefehler}
 
-Wenn man ein Problem löst, Vorsicht, evtl. liegt das eigentliche Problem erst dahinter...
+Man sollte immer nach der Reparatur eines offensichtlichen Fehlers beachten, dass man nicht unbedingt die Ursache behoben hat, sondern lediglich einen Folgefehler.
+Brennt beispielsweise ein Bauteil in einer Schaltung durch und löst so einen Kurzschluss aus, der die Spannungsversorgung überlastet und zerstört, wird der Fehler nicht durch Austausch des Spannungsreglers behoben. Er wird höchstwahrscheinlich wieder durchbrennen.
+
+Daher gilt bei jedem Einschaltversuch nach einer vorgenommenen Reparatur große Vorsicht.
+Auch hier sollte man auf sich erhöhende Temperaturen achten.
+Sobald man einen unmittelbaren Fehler nicht mehr vermutet, sollte man nachmessen, ob die Reparatur den gewünschten Erfolg hatte. Sprich bei einer reparierten Spannungsversorgung sollte diese nun die geforderte Ausgangsspannung bereitstellen...
+
+%Ist das erfolgreich, kann man versuchen das Gerät in Betrieb zu nehmen.
+%
+%\subsection{weiterführende Fehleranalyse}
+%
+%In dieser Anleitung werden nur Grundlagen vermittelt.
+%Wenn diese nicht weiterhelfen, kann in vielen Fällen erfolgreich auf die Weiten des Internets zurückgegriffen werden.
+%
+%Viele Probleme hatten andere schon vorher.
+%Dabei ist es von Vorteil, wenn man möglichst detailliert das Problem in einer Suchmaschine beschreiben kann. Soll heißen 
